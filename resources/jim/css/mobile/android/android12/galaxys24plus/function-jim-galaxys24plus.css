@@ -1,0 +1,13 @@
+/* start Galaxy S24+ css values*/
+body.androidgalaxys24plus #jim-mobile { position:relative; top:0px; left:0px; width:408px; height:856px; margin:auto; }
+body.androidgalaxys24plus #jim-case { background-image: url("../../../../../images/mobile/android/android12/galaxys24plus@2x.png"); height:856px; width:408px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.androidgalaxys24plus #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.androidgalaxys24plus #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.androidgalaxys24plus #jim-mobile.landscape { height:408px; width:856px; }
+body.androidgalaxys24plus #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.androidgalaxys24plus #jim-case.landscape { top:27px; left:33.5px; transform:rotate(-90deg); transform-origin:50% 25% 0; }
+body.androidgalaxys24plus #jim-container { clip-path:inset(0px round 15px); }
+body.androidgalaxys24plus #jim-container.portrait { position: absolute; top: 12px; left: 12px; width: 384px; height: 832px; }
+body.androidgalaxys24plus #jim-container.landscape { position: absolute; top: 19px; left: 5.5px; width: 832px; height: 384px; }
